@@ -23,11 +23,6 @@ Script Python đơn giản để đọc mã MRZ (Machine Readable Zone) từ ả
 
 > **Lưu ý:** Sau khi tạo release, link này sẽ hoạt động. Nếu chưa có, hãy xem phần [Releases](https://github.com/trantronghuydqd/MRZScannerPassport/releases) để tải phiên bản mới nhất.
 
-**Checksum (SHA256):**
-
-```
-[Sẽ cập nhật sau khi tạo release]
-```
 
 **Cách dùng:**
 
