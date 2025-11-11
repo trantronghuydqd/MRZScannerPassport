@@ -1,0 +1,26 @@
+# ============= CORE OCR ENGINE =============
+passporteye>=2.2.0    # Đọc MRZ từ ảnh passport
+
+# ============= IMAGE PROCESSING =============
+opencv-python>=4.8.0  # Xử lý ảnh: rotate, crop, denoise, threshold
+pillow>=10.0.0        # Image loading & manipulation
+numpy>=1.24.0         # Array operations cho OpenCV
+scikit-image>=0.25.2  # Required by PassportEye (provides skimage)
+imageio>=2.0.0        # Required by PassportEye for image I/O
+
+# Additional dependencies required by PassportEye
+matplotlib>=3.0.0
+scikit-learn>=1.0.0
+pytesseract>=0.3.0
+pdfminer.six>=20191010
+
+# ============= GUI & UTILITIES =============
+tkinterdnd2>=0.3.0    # Drag & Drop support cho Tkinter
+watchdog>=3.0.0       # File watcher - lắng nghe thư mục
+
+# ============= BUILD TOOL =============
+pyinstaller>=6.0.0    # Build EXE from Python script
+
+
+
+
