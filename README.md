@@ -15,7 +15,29 @@ Script Python đơn giản để đọc mã MRZ (Machine Readable Zone) từ ả
 
 ---
 
-## 🚀 Cài đặt nhanh
+## � Tải về (Ready-to-use)
+
+**Không muốn cài Python?** Tải file .exe đã build sẵn:
+
+👉 **[Download MRZ_Reader.exe (v1.0.0)](https://github.com/trantronghuydqd/MRZScannerPassport/releases/download/v1.0.0/MRZ_Reader.exe)**
+
+> **Lưu ý:** Sau khi tạo release, link này sẽ hoạt động. Nếu chưa có, hãy xem phần [Releases](https://github.com/trantronghuydqd/MRZScannerPassport/releases) để tải phiên bản mới nhất.
+
+**Checksum (SHA256):**
+
+```
+[Sẽ cập nhật sau khi tạo release]
+```
+
+**Cách dùng:**
+
+1. Tải file .exe về
+2. Chạy trực tiếp (không cần cài đặt gì thêm)
+3. Giao diện GUI sẽ xuất hiện
+
+---
+
+## �🚀 Cài đặt nhanh (Dành cho developers)
 
 ### 1. Cài Python 3.10+
 
@@ -107,8 +129,7 @@ Kiểm tra các file này để xem ảnh MRZ có rõ nét không.
 ```
 ````
 
-
- python -m venv venv
+python -m venv venv
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
 .\venv\Scripts\Activate.ps1
- venv\Scripts\activate
+venv\Scripts\activate
